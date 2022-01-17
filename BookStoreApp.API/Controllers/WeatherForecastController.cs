@@ -22,22 +22,13 @@ namespace BookStoreApp.API.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             _logger.LogInformation("Made call to Weather Endpoint");
-            try
+            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
-                throw new Exception("This is our logging test exception");
+                Date = DateTime.Now.AddDays(index),
+                TemperatureC = Random.Shared.Next(-20, 55),
+                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+            }).ToArray();
 
-                return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-                {
-                    Date = DateTime.Now.AddDays(index),
-                    TemperatureC = Random.Shared.Next(-20, 55),
-                    Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-                }).ToArray();
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Fatal Error Occurred");
-                throw;
-            }
 
         }
     }
