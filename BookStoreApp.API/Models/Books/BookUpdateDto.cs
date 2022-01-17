@@ -1,4 +1,6 @@
-﻿namespace BookStoreApp.API.Models.Books
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace BookStoreApp.API.Models.Books
 {
     public class BookUpdateDto : BaseDto
     {
