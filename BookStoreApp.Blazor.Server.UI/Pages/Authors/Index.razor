@@ -1,5 +1,7 @@
 ﻿@page "/authors/"
 @inject IAuthorService authorService
+@inject IJSRuntime js
+
 <h3>Authors</h3>
 
 
@@ -19,13 +21,17 @@ else
     }
     else
     {
-        <a class="btn btn-primary" href="/authors/create"><span class="oi oi-plus" aria-hidden="true"></span> Create</a>
+        <AuthorizeView Roles="Administrator">
+            <a class="btn btn-primary" href="/authors/create"><span class="oi oi-plus" aria-hidden="true"></span> Create</a>
+         </AuthorizeView>
         <br/>
         <table class="table table-responsive">
             <thead>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Action</th>
+                <tr>                
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">Action</th>
+                </tr>
             </thead>
             <tbody>
                 @foreach(var author in authors)
@@ -34,9 +40,11 @@ else
                         <td>@author.FirstName</td>
                         <td>@author.LastName</td>
                         <td>
-                            <a class="btn btn-primary" href="/authors/details"><span class="oi oi-book" aria-hidden="true"></span> Details</a>
-                            <a class="btn btn-warning" href="/authors/edit"><span class="oi oi-pencil" aria-hidden="true"></span> Edit</a>
-                            <a class="btn btn-danger" href="/authors/delete"><span class="oi oi-delete" aria-hidden="true"></span> Delete</a>
+                            <a class="btn btn-primary" href="/authors/details/@author.Id"><span class="oi oi-book" aria-hidden="true"></span> Details</a>
+                            <AuthorizeView Roles= Roles.Administrator>
+                                <a class="btn btn-warning" href="/authors/update/@author.Id"><span class="oi oi-pencil" aria-hidden="true"></span> Edit</a>
+                                <button class="btn btn-danger" @onclick=@(() => Delete(@author.Id)) href="/authors/delete"><span class="oi oi-delete" aria-hidden="true"></span> Delete</button>
+                            </AuthorizeView>
                         </td>
                     </tr>
                 }
@@ -52,10 +60,25 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        response  = await authorService.GetAuthors();
+        response  = await authorService.GetAll();
         if (response.Success)
         {
             authors = response.Data;
         }
+    }
+
+    private async Task Delete(int authorId)
+    {
+        var author = authors.First(q => q.Id == authorId);
+        var confirm = await js.InvokeAsync<bool>("confirm", $"Are You Sure You Want To Delete {author.FirstName} {author.LastName}?");
+        if (confirm)
+        {
+            var response = await authorService.Delete(authorId);
+            if (response.Success)
+            {
+                await OnInitializedAsync();
+            }
+        }
+
     }
 }
