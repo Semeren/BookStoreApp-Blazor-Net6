@@ -1,0 +1,80 @@
+﻿@page "/books/details/{id:int}"
+@inject IBookService bookService
+@inject NavigationManager navManager
+
+
+<h3>Book Details</h3>
+<EditForm Model="book" class="row g-3">
+    <fieldset disabled="true">
+        <div class="col-12">
+            <label>Book Cover Photo</label>
+            <div>
+                <img src="@book.Image" width="100" height="100" class="img-thumbnail" >
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="Title" class="form-label">Book Title</label>
+            <InputText class="form-control" type="text" @bind-Value="book.Title" id="Title"/>
+        </div>
+        <div class="col-md-6">
+            <label for="Author" class="form-label">Author</label>
+            <InputText class="form-control" @bind-Value="book.AuthorName" id="Author"/>
+        </div>
+        <br/>
+        <div class="col-md-6">
+            <label for="isbn" class="form-label">ISBN</label>
+            <InputText class="form-control" type="text" @bind-Value="book.Isbn" id="isbn"/>
+        </div>
+        <div class="col-md-6">
+            <label for="price" class="form-label">Price</label>
+            <InputNumber class="form-control" @bind-Value="book.Price" id="price"/>
+        </div>
+        <br/>
+        <div class="col-12">
+            <label for="year" class="form-label">Year</label>
+            <InputNumber class="form-control" @bind-Value="book.Year" id="year"/>
+        </div>
+        <br/>
+        <div class="col-12">
+            <label for="Summary" class="form-label">Book Summary</label>
+            <InputTextArea type="TextArea" class="form-control" @bind-Value="book.Summary" id="summary"/>
+        </div>
+        <br/>
+    </fieldset>
+        <br/>
+        <div class="col-12">
+            <button @onclick="GoToEdit" class="btn btn-warning btn-block" type="button">
+                <span class="oi oi-pencil"></span>
+                Edit Book
+            </button>
+             <button @onclick="BackToList"  class="btn btn-outline-secondary" type="button">
+                <span class="oi oi-media-skip-backward"></span>
+               Back to List
+            </button>
+        </div>
+</EditForm>
+@code {
+
+    [Parameter]
+    public int id { get; set; }
+
+    private BookDetailsDto book = new BookDetailsDto();
+
+    protected async override Task OnInitializedAsync()
+    {
+        var response = await bookService.Get(id);
+        if (response.Success)
+        {
+            book = response.Data;
+        }
+    } 
+
+    private void BackToList()
+    {
+        navManager.NavigateTo("/books/");
+    }
+    private void GoToEdit()
+    {
+        navManager.NavigateTo($"/books/update/{book.Id}");
+    }
+}

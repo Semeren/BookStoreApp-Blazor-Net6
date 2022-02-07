@@ -5,7 +5,7 @@
 <h3>Author Details</h3>
 
 <EditForm Model="author" class="row g-3">
-    <fieldset disabled ="true">
+    <fieldset disabled="true">
         <div class="col-md-6">
             <label for="firstname" class="form-label">First Name</label>
             <InputText type="text" class="form-control" @bind-Value="author.FirstName" id="firstname"/>
@@ -30,27 +30,27 @@
     }
     else
     {
-        foreach(var book in author.Books)
-        {
-            <div class="card" style="width: 18rem;">
-                <img src="@book.Image" class="card-img-top" alt="@book.Title">
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">@book.Title - @book.Price.ToString("C")</h5>
-                <p class ="card-text"></p>
-                <a href="#" class="btn btn-primary">View Book</a>
-            </div>
-        }
+            foreach(var book in author.Books)
+            {
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="@book.Image" class="card-img-top" alt="@book.Title" style="width:286px; height:164px">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">@book.Title - @book.Price.ToString("C")</h5>
+                        <p class ="card-text"></p>
+                        <a href="/books/details/@book.Id" class="btn btn-primary">View Book</a>
+                    </div>
+                </div>
+            }
     }
-
+    <br/>
     <div class="col-12">
-        <AuthorizeView Roles= Roles.Administrator>
-            <button @onclick="GoToEdit" class="btn btn-warning btn-block">
+            <button @onclick="GoToEdit" class="btn btn-warning btn-block" type="button">
                 <span class="oi oi-pencil"></span>
                     Edit Author
             </button>
-        </AuthorizeView>
-        <button @onclick="BackToList" class="btn btn-outline-secondary">
+        <button @onclick="BackToList" class="btn btn-outline-secondary" type="button">
             <span class="oi oi-media-skip-backward"></span>
                 Back to List
         </button>

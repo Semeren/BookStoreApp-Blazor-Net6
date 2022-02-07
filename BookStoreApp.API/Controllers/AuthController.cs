@@ -57,7 +57,7 @@ namespace BookStoreApp.API.Controllers
                 await userManager.AddToRoleAsync(user, userDto.Role);
                 return Accepted();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 logger.LogError($"Something went wrong in the {nameof(Register)}");
                 return Problem($"Something went wrong in the {nameof(Register)}", statusCode:500);
@@ -90,7 +90,7 @@ namespace BookStoreApp.API.Controllers
                 return response;
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 logger.LogError($"Something went wrong in the {nameof(Login)}");
                 return Problem($"Something went wrong in the {nameof(Login)}", statusCode: 500);

@@ -1,0 +1,147 @@
+Date : 2022-01-20 16:36:19
+Directory : c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp
+Total : 83 files,  5685 codes, 171 comments, 1130 blanks, all 6986 lines
+
+Languages
++---------------+------------+------------+------------+------------+------------+
+| language      | files      | code       | comment    | blank      | total      |
++---------------+------------+------------+------------+------------+------------+
+| C#            |         48 |      4,037 |        162 |        928 |      5,127 |
+| ASP.NET Razor |         18 |        698 |          0 |         99 |        797 |
+| XML           |          3 |        586 |          3 |         11 |        600 |
+| CSS           |          5 |        163 |          6 |         38 |        207 |
+| JSON          |          6 |        112 |          0 |          7 |        119 |
+| Markdown      |          1 |         70 |          0 |         45 |        115 |
+| SQL           |          2 |         19 |          0 |          2 |         21 |
++---------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                                   | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                                      |         83 |      5,685 |        171 |      1,130 |      6,986 |
+| BookStoreApp.API                                                                                                                                       |         36 |      2,468 |         22 |        588 |      3,078 |
+| BookStoreApp.API\Configurations                                                                                                                        |          1 |         27 |          0 |          4 |         31 |
+| BookStoreApp.API\Controllers                                                                                                                           |          4 |        453 |         15 |         62 |        530 |
+| BookStoreApp.API\Data                                                                                                                                  |          4 |        140 |          0 |         30 |        170 |
+| BookStoreApp.API\Migrations                                                                                                                            |          7 |      1,515 |          4 |        427 |      1,946 |
+| BookStoreApp.API\Models                                                                                                                                |         12 |        158 |          0 |         38 |        196 |
+| BookStoreApp.API\Models\Author                                                                                                                         |          4 |         47 |          0 |          9 |         56 |
+| BookStoreApp.API\Models\Books                                                                                                                          |          4 |         70 |          0 |         21 |         91 |
+| BookStoreApp.API\Models\User                                                                                                                           |          3 |         34 |          0 |          7 |         41 |
+| BookStoreApp.API\Properties                                                                                                                            |          1 |         31 |          0 |          1 |         32 |
+| BookStoreApp.API\Static                                                                                                                                |          2 |         14 |          0 |          2 |         16 |
+| BookStoreApp.Blazor.Server.UI                                                                                                                          |         45 |      3,198 |        149 |        540 |      3,887 |
+| BookStoreApp.Blazor.Server.UI\Configurations                                                                                                           |          1 |         12 |          0 |          3 |         15 |
+| BookStoreApp.Blazor.Server.UI\Pages                                                                                                                    |         13 |        582 |          0 |         86 |        668 |
+| BookStoreApp.Blazor.Server.UI\Pages\Authors                                                                                                            |          4 |        258 |          0 |         32 |        290 |
+| BookStoreApp.Blazor.Server.UI\Pages\Books                                                                                                              |          1 |         82 |          0 |          9 |         91 |
+| BookStoreApp.Blazor.Server.UI\Pages\Users                                                                                                              |          3 |        143 |          0 |         22 |        165 |
+| BookStoreApp.Blazor.Server.UI\Properties                                                                                                               |          1 |         28 |          0 |          1 |         29 |
+| BookStoreApp.Blazor.Server.UI\Providers                                                                                                                |          1 |         56 |          0 |         10 |         66 |
+| BookStoreApp.Blazor.Server.UI\Services                                                                                                                 |         11 |      1,537 |        137 |        318 |      1,992 |
+| BookStoreApp.Blazor.Server.UI\Services\Authentication                                                                                                  |          2 |         41 |          2 |          9 |         52 |
+| BookStoreApp.Blazor.Server.UI\Services\Base                                                                                                            |          5 |      1,240 |        135 |        261 |      1,636 |
+| BookStoreApp.Blazor.Server.UI\Shared                                                                                                                   |          6 |        205 |          1 |         39 |        245 |
+| BookStoreApp.Blazor.Server.UI\Static                                                                                                                   |          1 |          7 |          0 |          1 |          8 |
+| BookStoreApp.Blazor.Server.UI\wwwroot                                                                                                                  |          5 |        665 |          8 |         59 |        732 |
+| BookStoreApp.Blazor.Server.UI\wwwroot\css                                                                                                              |          5 |        665 |          8 |         59 |        732 |
+| BookStoreApp.Blazor.Server.UI\wwwroot\css\bootstrap                                                                                                    |          1 |          2 |          5 |          0 |          7 |
+| BookStoreApp.Blazor.Server.UI\wwwroot\css\open-iconic                                                                                                  |          3 |        611 |          3 |         46 |        660 |
+| BookStoreApp.Blazor.Server.UI\wwwroot\css\open-iconic\font                                                                                             |          2 |        541 |          3 |          1 |        545 |
+| BookStoreApp.Blazor.Server.UI\wwwroot\css\open-iconic\font\css                                                                                         |          1 |          1 |          0 |          0 |          1 |
+| BookStoreApp.Blazor.Server.UI\wwwroot\css\open-iconic\font\fonts                                                                                       |          1 |        540 |          3 |          1 |        544 |
+| BookStoreDb                                                                                                                                            |          2 |         19 |          0 |          2 |         21 |
+| BookStoreDb\dbo                                                                                                                                        |          2 |         19 |          0 |          2 |         21 |
+| BookStoreDb\dbo\Tables                                                                                                                                 |          2 |         19 |          0 |          2 |         21 |
++--------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+------------+------------+------------+------------+
+| filename                                                                                                                                               | language      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+------------+------------+------------+------------+
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\BookStoreApp.API.csproj                                                     | XML           |         30 |          0 |          5 |         35 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Configurations\MapperConfig.cs                                              | C#            |         27 |          0 |          4 |         31 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Controllers\AuthController.cs                                               | C#            |        115 |          0 |         18 |        133 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Controllers\AuthorsController.cs                                            | C#            |        154 |          7 |         20 |        181 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Controllers\BooksController.cs                                              | C#            |        155 |          8 |         18 |        181 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Controllers\WeatherForecastController.cs                                    | C#            |         29 |          0 |          6 |         35 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Data\ApiUser.cs                                                             | C#            |          9 |          0 |          3 |         12 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Data\Author.cs                                                              | C#            |         17 |          0 |          4 |         21 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Data\Book.cs                                                                | C#            |         17 |          0 |          3 |         20 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Data\BookStoreDBContext.cs                                                  | C#            |         97 |          0 |         20 |        117 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Migrations\20220115221750_AddedIdentityTables.Designer.cs                   | C#            |        270 |          1 |         93 |        364 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Migrations\20220115221750_AddedIdentityTables.cs                            | C#            |        199 |          0 |         25 |        224 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Migrations\20220115222514_ExtendedUserTable.Designer.cs                     | C#            |        276 |          1 |         95 |        372 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Migrations\20220115222514_ExtendedUserTable.cs                              | C#            |         32 |          0 |          6 |         38 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Migrations\20220115231003_SeededDefaultUserandRoles.Designer.cs             | C#            |        339 |          1 |         98 |        438 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Migrations\20220115231003_SeededDefaultUserandRoles.cs                      | C#            |         62 |          0 |         12 |         74 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Migrations\BookStoreDBContextModelSnapshot.cs                               | C#            |        337 |          1 |         98 |        436 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\Author\AuthorCreateDto.cs                                            | C#            |         15 |          0 |          3 |         18 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\Author\AuthorDetailsDto.cs                                           | C#            |          8 |          0 |          2 |         10 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\Author\AuthorReadOnlyDto.cs                                          | C#            |          9 |          0 |          1 |         10 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\Author\AuthorUpdateDto.cs                                            | C#            |         15 |          0 |          3 |         18 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\BaseDto.cs                                                           | C#            |          7 |          0 |          1 |          8 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\Books\BookCreateDto.cs                                               | C#            |         23 |          0 |          9 |         32 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\Books\BookDetailsDto.cs                                              | C#            |         13 |          0 |          3 |         16 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\Books\BookReadOnlyDto.cs                                             | C#            |         11 |          0 |          1 |         12 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\Books\BookUpdateDto.cs                                               | C#            |         23 |          0 |          8 |         31 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\User\AuthResponse.cs                                                 | C#            |          9 |          0 |          1 |         10 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\User\LoginUserDto.cs                                                 | C#            |         12 |          0 |          3 |         15 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\User\UserDto.cs                                                      | C#            |         13 |          0 |          3 |         16 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Program.cs                                                                  | C#            |         55 |          3 |         13 |         71 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Properties\launchSettings.json                                              | JSON          |         31 |          0 |          1 |         32 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Static\CustomClaimTypes.cs                                                  | C#            |          7 |          0 |          1 |          8 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Static\Messages.cs                                                          | C#            |          7 |          0 |          1 |          8 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\WeatherForecast.cs                                                          | C#            |         10 |          0 |          3 |         13 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\appsettings.Development.json                                                | JSON          |          2 |          0 |          2 |          4 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\appsettings.json                                                            | JSON          |         33 |          0 |          1 |         34 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\App.razor                                                      | ASP.NET Razor |         27 |          0 |          3 |         30 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\BookStoreApp.Blazor.Server.UI.csproj                           | XML           |         16 |          0 |          5 |         21 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Configurations\MapperConfig.cs                                 | C#            |         12 |          0 |          3 |         15 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Authors\Create.razor                                     | ASP.NET Razor |         49 |          0 |          6 |         55 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Authors\Details.razor                                    | ASP.NET Razor |         74 |          0 |          8 |         82 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Authors\Index.razor                                      | ASP.NET Razor |         76 |          0 |          9 |         85 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Authors\Update.razor                                     | ASP.NET Razor |         59 |          0 |          9 |         68 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Books\Index.razor                                        | ASP.NET Razor |         82 |          0 |          9 |         91 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Error.cshtml                                             | ASP.NET Razor |         36 |          0 |          7 |         43 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Error.cshtml.cs                                          | C#            |         22 |          0 |          5 |         27 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Index.razor                                              | ASP.NET Razor |          5 |          0 |          5 |         10 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Users\Login.razor                                        | ASP.NET Razor |         59 |          0 |          9 |         68 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Users\Logout.razor                                       | ASP.NET Razor |         11 |          0 |          2 |         13 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Users\Register.razor                                     | ASP.NET Razor |         73 |          0 |         11 |         84 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\_Host.cshtml                                             | ASP.NET Razor |          7 |          0 |          2 |          9 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\_Layout.cshtml                                           | ASP.NET Razor |         29 |          0 |          4 |         33 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Program.cs                                                     | C#            |         31 |          3 |         12 |         46 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Properties\launchSettings.json                                 | JSON          |         28 |          0 |          1 |         29 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Providers\ApiAuthenticationStateProvider.cs                    | C#            |         56 |          0 |         10 |         66 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\Authentication\AuthenticationService.cs               | C#            |         32 |          2 |          6 |         40 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\Authentication\IAuthenticationService.cs              | C#            |          9 |          0 |          3 |         12 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\AuthorService.cs                                      | C#            |        115 |          0 |         19 |        134 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\Base\BaseHttpService.cs                               | C#            |         40 |          0 |          8 |         48 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\Base\Client.cs                                        | C#            |         13 |          0 |          1 |         14 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\Base\IClient.cs                                       | C#            |          7 |          0 |          2 |          9 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\Base\Response.cs                                      | C#            |         10 |          0 |          2 |         12 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\Base\ServiceClient.cs                                 | C#            |      1,170 |        135 |        248 |      1,553 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\BookService.cs                                        | C#            |        115 |          0 |         19 |        134 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\IAuthorService.cs                                     | C#            |         13 |          0 |          5 |         18 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\IBookService.cs                                       | C#            |         13 |          0 |          5 |         18 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Shared\MainLayout.razor                                        | ASP.NET Razor |         15 |          0 |          5 |         20 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Shared\MainLayout.razor.css                                    | CSS           |         58 |          0 |         13 |         71 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Shared\NavMenu.razor                                           | ASP.NET Razor |         61 |          0 |          5 |         66 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Shared\NavMenu.razor.css                                       | CSS           |         50 |          1 |         12 |         63 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Shared\RedirectToLogin.razor                                   | ASP.NET Razor |          7 |          0 |          1 |          8 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Shared\SurveyPrompt.razor                                      | ASP.NET Razor |         14 |          0 |          3 |         17 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Static\Roles.cs                                                | C#            |          7 |          0 |          1 |          8 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\_Imports.razor                                                 | ASP.NET Razor |         14 |          0 |          1 |         15 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\appsettings.Development.json                                   | JSON          |          9 |          0 |          1 |         10 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\appsettings.json                                               | JSON          |          9 |          0 |          1 |         10 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\wwwroot\css\bootstrap\bootstrap.min.css                        | CSS           |          2 |          5 |          0 |          7 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\wwwroot\css\open-iconic\README.md                              | Markdown      |         70 |          0 |         45 |        115 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css | CSS           |          1 |          0 |          0 |          1 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\wwwroot\css\open-iconic\font\fonts\open-iconic.svg             | XML           |        540 |          3 |          1 |        544 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\wwwroot\css\site.css                                           | CSS           |         52 |          0 |         13 |         65 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreDb\dbo\Tables\Authors.sql                                                           | SQL           |          7 |          0 |          1 |          8 |
+| c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreDb\dbo\Tables\Books.sql                                                             | SQL           |         12 |          0 |          1 |         13 |
+| Total                                                                                                                                                  |               |      5,685 |        171 |      1,130 |      6,986 |
++--------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+------------+------------+------------+------------+

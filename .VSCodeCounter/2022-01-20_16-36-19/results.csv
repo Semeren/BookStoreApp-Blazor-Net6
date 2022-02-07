@@ -1,0 +1,85 @@
+"filename", "language", "JSON", "C#", "ASP.NET Razor", "CSS", "Markdown", "XML", "SQL", "comment", "blank", "total"
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\BookStoreApp.API.csproj", "XML", 0, 0, 0, 0, 0, 30, 0, 0, 5, 35
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Configurations\MapperConfig.cs", "C#", 0, 27, 0, 0, 0, 0, 0, 0, 4, 31
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Controllers\AuthController.cs", "C#", 0, 115, 0, 0, 0, 0, 0, 0, 18, 133
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Controllers\AuthorsController.cs", "C#", 0, 154, 0, 0, 0, 0, 0, 7, 20, 181
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Controllers\BooksController.cs", "C#", 0, 155, 0, 0, 0, 0, 0, 8, 18, 181
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Controllers\WeatherForecastController.cs", "C#", 0, 29, 0, 0, 0, 0, 0, 0, 6, 35
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Data\ApiUser.cs", "C#", 0, 9, 0, 0, 0, 0, 0, 0, 3, 12
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Data\Author.cs", "C#", 0, 17, 0, 0, 0, 0, 0, 0, 4, 21
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Data\Book.cs", "C#", 0, 17, 0, 0, 0, 0, 0, 0, 3, 20
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Data\BookStoreDBContext.cs", "C#", 0, 97, 0, 0, 0, 0, 0, 0, 20, 117
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Migrations\20220115221750_AddedIdentityTables.Designer.cs", "C#", 0, 270, 0, 0, 0, 0, 0, 1, 93, 364
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Migrations\20220115221750_AddedIdentityTables.cs", "C#", 0, 199, 0, 0, 0, 0, 0, 0, 25, 224
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Migrations\20220115222514_ExtendedUserTable.Designer.cs", "C#", 0, 276, 0, 0, 0, 0, 0, 1, 95, 372
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Migrations\20220115222514_ExtendedUserTable.cs", "C#", 0, 32, 0, 0, 0, 0, 0, 0, 6, 38
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Migrations\20220115231003_SeededDefaultUserandRoles.Designer.cs", "C#", 0, 339, 0, 0, 0, 0, 0, 1, 98, 438
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Migrations\20220115231003_SeededDefaultUserandRoles.cs", "C#", 0, 62, 0, 0, 0, 0, 0, 0, 12, 74
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Migrations\BookStoreDBContextModelSnapshot.cs", "C#", 0, 337, 0, 0, 0, 0, 0, 1, 98, 436
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\Author\AuthorCreateDto.cs", "C#", 0, 15, 0, 0, 0, 0, 0, 0, 3, 18
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\Author\AuthorDetailsDto.cs", "C#", 0, 8, 0, 0, 0, 0, 0, 0, 2, 10
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\Author\AuthorReadOnlyDto.cs", "C#", 0, 9, 0, 0, 0, 0, 0, 0, 1, 10
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\Author\AuthorUpdateDto.cs", "C#", 0, 15, 0, 0, 0, 0, 0, 0, 3, 18
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\BaseDto.cs", "C#", 0, 7, 0, 0, 0, 0, 0, 0, 1, 8
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\Books\BookCreateDto.cs", "C#", 0, 23, 0, 0, 0, 0, 0, 0, 9, 32
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\Books\BookDetailsDto.cs", "C#", 0, 13, 0, 0, 0, 0, 0, 0, 3, 16
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\Books\BookReadOnlyDto.cs", "C#", 0, 11, 0, 0, 0, 0, 0, 0, 1, 12
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\Books\BookUpdateDto.cs", "C#", 0, 23, 0, 0, 0, 0, 0, 0, 8, 31
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\User\AuthResponse.cs", "C#", 0, 9, 0, 0, 0, 0, 0, 0, 1, 10
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\User\LoginUserDto.cs", "C#", 0, 12, 0, 0, 0, 0, 0, 0, 3, 15
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Models\User\UserDto.cs", "C#", 0, 13, 0, 0, 0, 0, 0, 0, 3, 16
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Program.cs", "C#", 0, 55, 0, 0, 0, 0, 0, 3, 13, 71
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Properties\launchSettings.json", "JSON", 31, 0, 0, 0, 0, 0, 0, 0, 1, 32
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Static\CustomClaimTypes.cs", "C#", 0, 7, 0, 0, 0, 0, 0, 0, 1, 8
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\Static\Messages.cs", "C#", 0, 7, 0, 0, 0, 0, 0, 0, 1, 8
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\WeatherForecast.cs", "C#", 0, 10, 0, 0, 0, 0, 0, 0, 3, 13
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\appsettings.Development.json", "JSON", 2, 0, 0, 0, 0, 0, 0, 0, 2, 4
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.API\appsettings.json", "JSON", 33, 0, 0, 0, 0, 0, 0, 0, 1, 34
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\App.razor", "ASP.NET Razor", 0, 0, 27, 0, 0, 0, 0, 0, 3, 30
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\BookStoreApp.Blazor.Server.UI.csproj", "XML", 0, 0, 0, 0, 0, 16, 0, 0, 5, 21
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Configurations\MapperConfig.cs", "C#", 0, 12, 0, 0, 0, 0, 0, 0, 3, 15
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Authors\Create.razor", "ASP.NET Razor", 0, 0, 49, 0, 0, 0, 0, 0, 6, 55
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Authors\Details.razor", "ASP.NET Razor", 0, 0, 74, 0, 0, 0, 0, 0, 8, 82
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Authors\Index.razor", "ASP.NET Razor", 0, 0, 76, 0, 0, 0, 0, 0, 9, 85
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Authors\Update.razor", "ASP.NET Razor", 0, 0, 59, 0, 0, 0, 0, 0, 9, 68
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Books\Index.razor", "ASP.NET Razor", 0, 0, 82, 0, 0, 0, 0, 0, 9, 91
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Error.cshtml", "ASP.NET Razor", 0, 0, 36, 0, 0, 0, 0, 0, 7, 43
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Error.cshtml.cs", "C#", 0, 22, 0, 0, 0, 0, 0, 0, 5, 27
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Index.razor", "ASP.NET Razor", 0, 0, 5, 0, 0, 0, 0, 0, 5, 10
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Users\Login.razor", "ASP.NET Razor", 0, 0, 59, 0, 0, 0, 0, 0, 9, 68
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Users\Logout.razor", "ASP.NET Razor", 0, 0, 11, 0, 0, 0, 0, 0, 2, 13
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\Users\Register.razor", "ASP.NET Razor", 0, 0, 73, 0, 0, 0, 0, 0, 11, 84
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\_Host.cshtml", "ASP.NET Razor", 0, 0, 7, 0, 0, 0, 0, 0, 2, 9
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Pages\_Layout.cshtml", "ASP.NET Razor", 0, 0, 29, 0, 0, 0, 0, 0, 4, 33
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Program.cs", "C#", 0, 31, 0, 0, 0, 0, 0, 3, 12, 46
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Properties\launchSettings.json", "JSON", 28, 0, 0, 0, 0, 0, 0, 0, 1, 29
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Providers\ApiAuthenticationStateProvider.cs", "C#", 0, 56, 0, 0, 0, 0, 0, 0, 10, 66
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\Authentication\AuthenticationService.cs", "C#", 0, 32, 0, 0, 0, 0, 0, 2, 6, 40
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\Authentication\IAuthenticationService.cs", "C#", 0, 9, 0, 0, 0, 0, 0, 0, 3, 12
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\AuthorService.cs", "C#", 0, 115, 0, 0, 0, 0, 0, 0, 19, 134
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\Base\BaseHttpService.cs", "C#", 0, 40, 0, 0, 0, 0, 0, 0, 8, 48
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\Base\Client.cs", "C#", 0, 13, 0, 0, 0, 0, 0, 0, 1, 14
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\Base\IClient.cs", "C#", 0, 7, 0, 0, 0, 0, 0, 0, 2, 9
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\Base\Response.cs", "C#", 0, 10, 0, 0, 0, 0, 0, 0, 2, 12
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\Base\ServiceClient.cs", "C#", 0, 1170, 0, 0, 0, 0, 0, 135, 248, 1553
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\BookService.cs", "C#", 0, 115, 0, 0, 0, 0, 0, 0, 19, 134
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\IAuthorService.cs", "C#", 0, 13, 0, 0, 0, 0, 0, 0, 5, 18
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Services\IBookService.cs", "C#", 0, 13, 0, 0, 0, 0, 0, 0, 5, 18
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Shared\MainLayout.razor", "ASP.NET Razor", 0, 0, 15, 0, 0, 0, 0, 0, 5, 20
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Shared\MainLayout.razor.css", "CSS", 0, 0, 0, 58, 0, 0, 0, 0, 13, 71
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Shared\NavMenu.razor", "ASP.NET Razor", 0, 0, 61, 0, 0, 0, 0, 0, 5, 66
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Shared\NavMenu.razor.css", "CSS", 0, 0, 0, 50, 0, 0, 0, 1, 12, 63
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Shared\RedirectToLogin.razor", "ASP.NET Razor", 0, 0, 7, 0, 0, 0, 0, 0, 1, 8
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Shared\SurveyPrompt.razor", "ASP.NET Razor", 0, 0, 14, 0, 0, 0, 0, 0, 3, 17
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\Static\Roles.cs", "C#", 0, 7, 0, 0, 0, 0, 0, 0, 1, 8
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\_Imports.razor", "ASP.NET Razor", 0, 0, 14, 0, 0, 0, 0, 0, 1, 15
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\appsettings.Development.json", "JSON", 9, 0, 0, 0, 0, 0, 0, 0, 1, 10
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\appsettings.json", "JSON", 9, 0, 0, 0, 0, 0, 0, 0, 1, 10
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\wwwroot\css\bootstrap\bootstrap.min.css", "CSS", 0, 0, 0, 2, 0, 0, 0, 5, 0, 7
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\wwwroot\css\open-iconic\README.md", "Markdown", 0, 0, 0, 0, 70, 0, 0, 0, 45, 115
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css", "CSS", 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\wwwroot\css\open-iconic\font\fonts\open-iconic.svg", "XML", 0, 0, 0, 0, 0, 540, 0, 3, 1, 544
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreApp.Blazor.Server.UI\wwwroot\css\site.css", "CSS", 0, 0, 0, 52, 0, 0, 0, 0, 13, 65
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreDb\dbo\Tables\Authors.sql", "SQL", 0, 0, 0, 0, 0, 0, 7, 0, 1, 8
+"c:\Users\jhack\Source\Repos\C#\MessingAround\BookStoreApp\BookStoreDb\dbo\Tables\Books.sql", "SQL", 0, 0, 0, 0, 0, 0, 12, 0, 1, 13
+"Total", "-", 112, 4037, 698, 163, 70, 586, 19, 171, 1130, 6986

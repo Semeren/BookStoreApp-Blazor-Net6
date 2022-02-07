@@ -1,7 +1,7 @@
 ﻿@page "/authors/update/{id:int}"
 @inject IAuthorService authorService
 @inject NavigationManager navManager
-@attribute [Authorize(Roles == Roles.Administrator)]
+@attribute [Authorize(Roles = Roles.Administrator)]
 
 <h3>Edit Author</h3>
 
@@ -28,7 +28,7 @@
                 <span class="oi 0i-pencil"></span>
                 Update Author
             </button>
-            <button @onclick="BackToList" class="btn btn-outline-secondary">
+            <button @onclick="BackToList" class="btn btn-outline-secondary" type="button">
                 <span class="oi oi-media-skip-backward"></span>
                 Back to List
             </button>
